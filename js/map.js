@@ -62,12 +62,12 @@ var slocumIcon = L.icon({
   iconAnchor:   [18, 22]
 });
 
-var glideLayer2 = L.layerGroup(null, {name: "Glider Marker"})
+var glideLayer2 = L.layerGroup(null, {name: "Glider Marker 2"})
 
 // This won't actually get added to the map, but will populate glideLayer
 var gliderLayer2 = L.geoJson(null, {
   filter: function(feature, layer) {
-    return feature.geometry.coordinates[0] !== 0 && feature.geometry.coordinates[1] !== 0 //&&  feature.properties.active == false; //jp changed to false
+    return feature.geometry.coordinates[0] !== 0 && feature.geometry.coordinates[1] !== 0 && feature.properties.name !== 'argo' &&  feature.properties.active == true; //jp changed to false
   },
   style: function (feature) {
     return {
@@ -100,7 +100,7 @@ $.getJSON("/gliderdata/deployments/cproof-deployments_all.geojson", function (da
 });
 
 var map = L.map("mapfront", {
-  layers:  [mapboxOcean, mapboxOSM, featureLayer, glideLayer,gliderLayer2] //jpnote added glideLayer
+  layers:  [mapboxOcean, mapboxOSM, featureLayer, glideLayer,glideLayer2] //jpnote added glideLayer
 }).setView([50., -133], zoom=5)
 
 
