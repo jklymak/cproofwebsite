@@ -30,9 +30,21 @@ Underwater ocean gliders are autonomous vehicles that use a buoyancy engine to m
 <div class="row">
   <div class="column" >
       <p class="box" style="background-color:rgb(250, 250, 250);">
-      <strong> dfo-rosie713</strong>
+      <strong> dfo-marvin1003</strong>
       Teledyne Webb Slocum G3 1000 m glider
-      Sensors: CTD, oxygen optode, and ECO-Puck 
+      Sensors: CTD, oxygen optode, and ECO-Puck
+  </p>
+
+ <p class="box" style="background-color:rgb(250, 250, 250);">
+    <strong> dfo-hal1002</strong>
+    Teledyne Webb Slocum G3 1000 m glider
+    Sensors: CTD, oxygen optode, and ECO-Puck
+  </p>
+
+ <p class="box" style="background-color:rgb(250, 250, 250);">
+    <strong> dfo-rosie713</strong>
+    Teledyne Webb Slocum G3 1000 m glider
+    Sensors: CTD, oxygen optode, and ECO-Puck 
   </p>
 
  <p class="box" style="background-color:rgb(250, 250, 250);">
@@ -49,6 +61,24 @@ Underwater ocean gliders are autonomous vehicles that use a buoyancy engine to m
   </p>
   </div>
   <div class="column" >
+
+ <p class="box" style="background-color:rgb(250, 250, 250);">
+    <strong>dfo-k999  </strong>
+    Teledyne Webb Slocum G3 1000 m glider
+    Sensors: CTD, oxygen optode, ECO-Puck
+  </p>
+
+ <p class="box" style="background-color:rgb(250, 250, 250);">
+    <strong>dfo-bumblebee998  </strong>
+    Teledyne Webb Slocum G3 1000 m glider
+    Sensors: CTD, oxygen optode, ECO-Puck
+  </p>
+
+ <p class="box" style="background-color:rgb(250, 250, 250);">
+    <strong>dfo-maria997  </strong>
+    Teledyne Webb Slocum G3 1000 m glider
+    Sensors: CTD, oxygen optode, ECO-Puck
+  </p>
    
  <p class="box" style="background-color:rgb(250, 250, 250);">
     <strong>dfo-bb046  </strong>
