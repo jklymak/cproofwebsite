@@ -22,14 +22,14 @@
   url: https://www.uvic.ca/research/projects/wcwi/index.php
   groups: energy
   visible: true
-  type: investigator 
+  type: investigator
 
 - name: Roberta Hamme
   role: Co-Investigator; Lead profiling floats
   img: https://web.uvic.ca/~rhamme/rchpic4.jpg
   org: University of Victotria
   title: Associate Professor in Marine Chemistry,  Tier-II CRC in Ocean Carbon Dynamics
-  bio: Studies the cycles of gases like carbon dioxide and oxygen in the ocean. 
+  bio: Studies the cycles of gases like carbon dioxide and oxygen in the ocean.
   url: https://web.uvic.ca/~rhamme/
   visible: true
   type: sciencelead
@@ -50,7 +50,7 @@
   visible: true
   title: Research Scientist
   org: Institute of Ocean Sciences
-  bio: Uses novel techniques to observe the ocean and understand its dynamics.                                               
+  bio: Uses novel techniques to observe the ocean and understand its dynamics.
   type: sciencelead
 
 - name: Curran Crawford
@@ -61,7 +61,7 @@
   url: https://ssdl.uvic.ca
   bio: Applies advanced modelling tools to simulate energy systems.
   visible: true
-  type: investigator 
+  type: investigator
 
 - name: Philippe Tortell
   url: https://www.eoas.ubc.ca/people/philippetortell
@@ -71,7 +71,7 @@
   org: University of British Columbia
   bio: Studies marine biogeochemical cycles with a focus on primary productivity and climate active gases.
   visible: true
-  type: investigator 
+  type: investigator
 
 - name: Diana Varela
   visible: true
@@ -81,7 +81,7 @@
   org: University of Victoria
   role: Co-Investigator
   bio: Studies variations in marine primary productivity and cycling of nutrient elements in the oceans.
-  type: investigator 
+  type: investigator
 
 - name: Maycira Costa
   visible: true
@@ -91,7 +91,7 @@
   role: Co-Investigator
   bio: Investigates the interaction of light energy with organic and inorganic material in ocean waters.
   img: img/costa.jpg
-  type: investigator 
+  type: investigator
 
 - name: Roger Francois
   visible: true
@@ -101,15 +101,15 @@
   img: img/francois.jpg
   url: https://www.eoas.ubc.ca/people/rogerfrancois
   bio: Studies water column radiochemistry and application of geochemistry to problems of paleoceanography.
-  type: investigator 
+  type: investigator
 
 - name: James Pegg
   visible: true
   role: Marine Technician
   title: Institute of Ocean Sciences
-  org: 
+  org:
   img: img/James.jpg
-  url: 
+  url:
   bio: Lead technician for C-PROOF, James comes from the Pacific Biological Station and specializes in submersible vehicles.
   type: cproofstaff
 
@@ -117,9 +117,9 @@
   visible: true
   role: Physical Scientist
   title: Institute of Ocean Sciences
-  org: 
+  org:
   img: img/HayleyDosser.jpg
-  url: 
+  url:
   bio: Hayley works with data management and sensors, as well as mission planning and piloting.
   type: cproofstaff
 
@@ -127,9 +127,9 @@
   visible: true
   role: Sea-going Technician
   title: University of British Columbia
-  org: 
+  org:
   img: img/chris-payne2.jpg
-  url: 
+  url:
   bio: Chris is the lead technician for the UBC ocean glider, and is an expert in mission planning and piloting.
   type: cproofstaff
 
@@ -137,28 +137,28 @@
   visible: true
   role: Physical Oceanographer
   title: Research Scientist
-  org: 
+  org:
   img: img/JenniferJackson.jpg
-  url: 
+  url:
   bio: Studies the physical oceanography of the coastal waters of British Columbia.
-  type: hakai
+  type:
 
 - name: Wiley Evans
   visible: true
   role: Chemical Oceanographer
   title: Research Scientist
-  org: 
+  org:
   img: img/Wiley.jpg
-  url: 
+  url:
   bio: Focuses on the marine carbonate system and ocean acidification in coastal ocean settings.
   type: hakai
 
 - name: Chris Mackenzie
   visible: true
-  role: Hakai Institute Research Technician 
-  title: 
-  org: 
+  role: Hakai Institute Research Technician
+  title:
+  org:
   img: img/ChrisMackenzie.jpg
-  url: 
+  url:
   bio: Chris works with C-PROOF ocean gliders from a remote Hakai Institute field station on Calvert Island.
   type: cproofstaff
