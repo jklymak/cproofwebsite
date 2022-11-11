@@ -20,7 +20,9 @@ category: platforms
 
 Underwater ocean gliders are autonomous vehicles that use a buoyancy engine to make themselves lighter or heavier than the seawater around them, causing them to float or sink. They have hydrodynamic wings that turn some of this lift to forward thrust, allowing them to move through the water at 20-30 km/day. Every 4-8 hours they surface and call home, communicating over satellite to share their GPS position and a subset of their data. They also receive commands for where to go next and how to change their sampling. Our ocean gliders have sensors to measure ocean temperature and salinity, dissolved oxygen, chlorophyll, dissolved organic matter, turbidity, and even microstructure turbulence. 
 
-![How a glider works](/img/GliderOps.png "How a glider works.")
+<figure>
+<img class="img" src="/img/GliderOps.png" alt="How a glider works.">
+</figure>
 
 <hr>
 
@@ -140,6 +142,11 @@ The goal of <a href='https://biogeochemical-argo.org/'>Biogeochemical-Argo</a> i
     <td><a href='https://www.ocean-ops.org/board/wa/Platform?ref=4902587'><b>4902587</b></a></td>
     <td><a href='https://www.ocean-ops.org/board/wa/Platform?ref=4902588'><b>4902588</b></a></td>
     <td><a href='https://www.ocean-ops.org/board/wa/Platform?ref=4902589'><b>4902589</b></a></td>
+    <td><a href='https://www.ocean-ops.org/board/wa/Platform?ref=4902612'><b>4902612</b></a></td>
+  </tr>
+    <tr>
+    <td><a href='https://www.ocean-ops.org/board/wa/Platform?ref=4902613'><b>4902613</b></a></td>
+    <td><a href='https://www.ocean-ops.org/board/wa/Platform?ref=4902616'><b>4902616</b></a></td>
   </tr>
 </table>
 
