@@ -4,13 +4,12 @@ description: "Canadian-Pacific Robotic Ocean Observing Facility"
 # base url w/o any subdirectoriries
 url: "https://cproof.uvic.ca"
 
-
 # Secondary Parameters
 # rest of non-domain base url...
 baseurl: ""
 header-img: img/MikeSaanich19.jpg
 headercolor: "#FFFFFF"
-# logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /img/logos/LogoSquare.png
 
 # Tertiary Parameters
 github_username:  c-proof
@@ -40,7 +39,7 @@ defaults:
 prose:
   ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
   #siteurl: 'http://projectpages.github.io/project-pages/'
-  siteurl: 
+  siteurl:
   ispp: true
   media: 'img'
   metadata:
