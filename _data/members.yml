@@ -17,7 +17,7 @@
   img: img/BradBuckham.jpg
   org: University of Victoria
   github:
-  title:  Associate Professor in Ocean Engineering; Director West Coast Wave Initiative
+  title:  Professor in Ocean Engineering; Director West Coast Wave Initiative
   bio: Specializes in offshore renewable energy, with a focus on the British Columbia wave energy supply.
   url: https://www.uvic.ca/research/projects/wcwi/index.php
   groups: energy
@@ -28,7 +28,7 @@
   role: Co-Investigator; Lead profiling floats
   img: https://web.uvic.ca/~rhamme/rchpic4.jpg
   org: University of Victotria
-  title: Associate Professor in Marine Chemistry,  Tier-II CRC in Ocean Carbon Dynamics
+  title: Professor in Marine Chemistry,  Tier-II CRC in Ocean Carbon Dynamics
   bio: Studies the cycles of gases like carbon dioxide and oxygen in the ocean.
   url: https://web.uvic.ca/~rhamme/
   visible: true
@@ -36,9 +36,9 @@
 
 - name: Stephanie Waterman
   role: Co-Investigator; Lead gliders
-  img: http://www.stephaniewaterman.ca/Work/uploads/4/3/3/5/43351239/published/stephanie-waterman.jpg?1541102072
+  img: img/Waterman.jpg
   org: University of British Columbia
-  title: Assistant Professor Physical Oceanography, Tier-II CRC in Ocean Turbulence
+  title: Associate Professor Physical Oceanography, Tier-II CRC in Ocean Turbulence
   url: http://www.stephaniewaterman.ca/Work/
   visible: true
   bio: Studies ocean turbulence and mixing from observational and theoretical perspectives.
@@ -56,7 +56,7 @@
 - name: Curran Crawford
   role: Co-Investigator
   img: img/Crawford.jpg
-  title: Associate Professor, Renewable Energy Technologies
+  title: Professor, Renewable Energy Technologies
   org: University of Victoria
   url: https://ssdl.uvic.ca
   bio: Applies advanced modelling tools to simulate energy systems.
@@ -94,7 +94,7 @@
   type: investigator
 
 - name: Roger Francois
-  visible: true
+  visible: false
   role: Co-Investigator
   title: Professor of Chemical Oceanography, CRC Tier I
   org: University of British Columbia
@@ -113,6 +113,7 @@
   bio: Lead technician for C-PROOF, James comes from the Pacific Biological Station and specializes in submersible vehicles.
   type: cproofstaff
 
+
 - name: Hayley Dosser
   visible: true
   role: Physical Scientist
@@ -121,6 +122,16 @@
   img: img/HayleyDosser.jpg
   url:
   bio: Hayley works with data management and sensors, as well as mission planning and piloting.
+  type: cproofstaff
+
+- name: Nick Harper
+  visible: true
+  role: Marine Technician
+  title: University of Victoria
+  org:
+  img: img/NickHarper.jpg
+  url:
+  bio: Glider technician for C-PROOF, working with James Pegg at Pacific Biological Station.
   type: cproofstaff
 
 - name: Chris Payne
@@ -137,7 +148,7 @@
   visible: true
   role: Physical Oceanographer
   title: Research Scientist
-  org:
+  org: Institute of Ocean Sciences
   img: img/JenniferJackson.jpg
   url:
   bio: Studies the physical oceanography of the coastal waters of British Columbia.
@@ -147,7 +158,7 @@
   visible: true
   role: Chemical Oceanographer
   title: Research Scientist
-  org:
+  org: Hakai Institute
   img: img/Wiley.jpg
   url:
   bio: Focuses on the marine carbonate system and ocean acidification in coastal ocean settings.
@@ -155,9 +166,9 @@
 
 - name: Chris Mackenzie
   visible: true
-  role: Hakai Institute Research Technician
+  role: Research Technician
   title:
-  org:
+  org: Hakai Institute
   img: img/ChrisMackenzie.jpg
   url:
   bio: Chris works with C-PROOF ocean gliders from a remote Hakai Institute field station on Calvert Island.
