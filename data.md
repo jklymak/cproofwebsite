@@ -50,6 +50,8 @@ function copyToClipboard(element) {
 
 ## Get glider data:
 
+__NOTE__: The instructions below are temporarily not working!
+
 The science files are created in `L0_timeseries` and `L0_gridfiles`. These are proper nectdf files that have metadata and attributes, and should be compliant with US-IOOS standards.
 
 By default, the wget will download data to the directory the user is in. \
