@@ -1,6 +1,25 @@
 # Page for C-PROOF website
 
-Based off https://projectpages.github.io.  
+Based off https://projectpages.github.io.
+
+## Running jekyll:
+
+If you have bundler installed:
+
+```
+sudo bundle install
+```
+
+otherwise `sudo gem install bundler` first.
+
+To compile and run,
+
+```
+bundler exec jekyll serve &
+```
+
+will give you a local webserver.
+
 
 ## Installing and editing.
 
@@ -21,6 +40,6 @@ so we can sync with other people's changes as they are merged on the original.
 
 5. Commit changes: `git commit -a -m "EDIT: helpful message about your change"`
 
-6. Push the changes to *your* remote:   `git push origin new-branch-name`  
+6. Push the changes to *your* remote:   `git push origin new-branch-name`
 
 7 git will now suggest that you can make a pull request to `c-proof`.  Do so and then it will get merged if all is OK
