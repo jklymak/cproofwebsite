@@ -22,15 +22,27 @@
   url: 
   groups: 
   visible: true
-  type: 
+  type:
+ 
+- name: Seth Fleming-Alho
+  role: Past co-op student at UVic, now junior glider technician with DFO
+  img: img/Seth_photo.jpg
+  org:
+  github:
+  title:
+  bio: Developing a fully-functional open-source prototype glider and assisting James Pegg at the Pacific Biological Station.
+  url:
+  groups:
+  visible: false
+  type:
 
 - name: Julia Putko
-  role: Co-op Student at UVic
+  role: 2022 Co-op Student at UVic
   img: img/JuliaPutko.png
   org: 
   github: 
   title: 
-  bio: Working to make glider data more accessible on the C-PROOF website.                                                         
+  bio: Made our glider data more accessible on the C-PROOF website.                                                         
   url: 
   groups: 
   visible: true

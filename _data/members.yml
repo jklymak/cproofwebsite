@@ -113,7 +113,6 @@
   bio: Lead technician for C-PROOF, James comes from the Pacific Biological Station and specializes in submersible vehicles.
   type: cproofstaff
 
-
 - name: Hayley Dosser
   visible: true
   role: Physical Scientist
@@ -144,8 +143,18 @@
   bio: Chris is the lead technician for the UBC ocean glider, and is an expert in mission planning and piloting.
   type: cproofstaff
 
-- name: Jennifer Jackson
+- name: Seth Fleming-Alho
   visible: true
+  role: Junior Glider Technician with DFO
+  title: Institute of Ocean Sciences
+  org:
+  img: img/Seth_photo.jpg
+  url:
+  bio: Seth is developing a fully-functional open-source prototype glider and assisting James Pegg at the Pacific Biological Station. 
+  type: cproofstaff
+
+- name: Jennifer Jackson
+  visible: false
   role: Physical Oceanographer
   title: Research Scientist
   org: Institute of Ocean Sciences
