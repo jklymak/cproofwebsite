@@ -2,7 +2,7 @@
 layout:     post
 title:      Where is K9 going?
 author:     Jody Klymak
-tags: 		jobs
+tags: 		deployments
 subtitle:  	Glider mission in support of SWOT calibration phase
 category:   deployments
 header-img: "img/Explorer19/TullyExplorer0999Sm.jpg"
