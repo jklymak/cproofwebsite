@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      Where is K9 going?
+author:     Jody Klymak
+tags: 		jobs
+subtitle:  	Glider mission in support of SWOT calibration phase
+category:   deployments
+header-img: "img/Explorer19/TullyExplorer0999Sm.jpg"
+---
+<!-- Start Writing Below in Markdown -->
+
+Typically our gliders run sections that cross isobaths and run perpendicular to the continental shelf.  That lets us map the contrasting physical, chemical, and biological properties of the open ocean and coastal waters.  Our recent mission with glider K9 started out that way; it was launched from Calvert Island by the oceanography crew at [Hakai](https://hakai.org/science/#science-2) and drove down Goose Trough to the open ocean. But recently K9 has turned almost due South (green curve in image below).  Where is K9 going?
+
+![K9's track for this mission](../img/K9SWOT.png)
+
+Our goal with this mission is to have K9 follow the [SWOT](https://swot.jpl.nasa.gov) satellite track.  SWOT stands for Surface Water and Ocean Topography, and is an exciting new satellite capable of returning kilometer scale sea-surface heights in the two white swaths shown below.  Sea-surface height drives ocean currents, and on kilometer scales is a great indicator of sub-surface stirring by eddies and other instabilities.   Until SWOT, satellites have been only been capable of resolving sea surface heights on a much larger scale.  Canada is a partner in SWOT through the [Canadian Space Agency](https://www.asc-csa.gc.ca/eng/satellites/swot/)
+
+![K9 along the SWOT track](../img/K9SwotPlan.png)
+
+We are driving K9 along the SWOT track, because K9 measures the results of ocean stirring on temperature and salinity, and on similar scales to those measured by SWOT.  Combining the two data types will be an exciting new way to investigate mesoscale and submesoscale flows in the ocean.
+
