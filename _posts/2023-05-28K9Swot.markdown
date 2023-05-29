@@ -17,5 +17,5 @@ Our goal with this mission is to have K9 follow the [SWOT](https://swot.jpl.nasa
 
 ![K9 along the SWOT track](../img/K9SwotPlan.png)
 
-We are driving K9 along the SWOT track, because K9 measures the results of ocean stirring on temperature and salinity, and on similar scales to those measured by SWOT.  Combining the two data types will be an exciting new way to investigate mesoscale and submesoscale flows in the ocean.
+We are driving K9 along the SWOT track (green path above), because K9 measures the results of ocean stirring on temperature and salinity, and on similar scales to those measured by SWOT.  Combining the two data types will be an exciting new way to investigate mesoscale and submesoscale flows in the ocean.  Note that we also have glider Eva crossing the SWOT track, a few days behind K9 (red track above).  Eva is turning around to head back to Calvert soon, but K9 will continue its mission for six more weeks, hopefully covering the track above three or four times before heading back for pickup closer to shore.
 
