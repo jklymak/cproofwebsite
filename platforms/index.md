@@ -6,9 +6,8 @@ header-img: "img/glidersonconcrete.jpg"
 category: platforms
 ---
 
-<body class="platforms">
 
-<h1>Ocean Gliders:</h1>
+# Ocean Gliders:
 
 <figure>
 <img class="img" src="/img/gliderwater.jpg" alt="">
@@ -16,9 +15,9 @@ category: platforms
 </figure>
 
 
-<h3>What is an ocean glider? </h3>
+### What is an ocean glider?
 
-Underwater ocean gliders are autonomous vehicles that use a buoyancy engine to make themselves lighter or heavier than the seawater around them, causing them to float or sink. They have hydrodynamic wings that turn some of this lift to forward thrust, allowing them to move through the water at 20-30 km/day. Every 4-8 hours they surface and call home, communicating over satellite to share their GPS position and a subset of their data. They also receive commands for where to go next and how to change their sampling. Our ocean gliders have sensors to measure ocean temperature and salinity, dissolved oxygen, chlorophyll, dissolved organic matter, turbidity, and even microstructure turbulence. 
+Underwater ocean gliders are autonomous vehicles that use a buoyancy engine to make themselves lighter or heavier than the seawater around them, causing them to float or sink. They have hydrodynamic wings that turn some of this lift to forward thrust, allowing them to move through the water at 20-30 km/day. Every 4-8 hours they surface and call home, communicating over satellite to share their GPS position and a subset of their data. They also receive commands for where to go next and how to change their sampling. Our ocean gliders have sensors to measure ocean temperature and salinity, dissolved oxygen, chlorophyll, dissolved organic matter, turbidity, and even microstructure turbulence.
 
 <figure>
 <img class="img" src="/img/GliderOps.png" alt="How a glider works.">
@@ -26,81 +25,22 @@ Underwater ocean gliders are autonomous vehicles that use a buoyancy engine to m
 
 <hr>
 
-<h2> Meet the Fleet</h2>
+### Meet the Fleet
 
-
-<div class="row">
-  <div class="column" >
-      <p class="box" style="background-color:rgb(250, 250, 250);">
-      <strong> dfo-marvin1003</strong>
-      Teledyne Webb Slocum G3 1000 m glider
-      Sensors: CTD, oxygen optode, and ECO-Puck
-  </p>
-
- <p class="box" style="background-color:rgb(250, 250, 250);">
-    <strong> dfo-hal1002</strong>
-    Teledyne Webb Slocum G3 1000 m glider
-    Sensors: CTD, oxygen optode, and ECO-Puck
-  </p>
-
- <p class="box" style="background-color:rgb(250, 250, 250);">
-    <strong> dfo-rosie713</strong>
-    Teledyne Webb Slocum G3 1000 m glider
-    Sensors: CTD, oxygen optode, and ECO-Puck 
-  </p>
-
- <p class="box" style="background-color:rgb(250, 250, 250);">
-    <strong>dfo-walle652</strong> 
-    Teledyne Webb Slocum G2 1000 m glider 
-    Sensors: CTD, oxygen optode, and ECO-Puck 
-  </p>
-
- <p class="box" style="background-color:rgb(250, 250, 250);">
-    <strong> dfo-mike579 (MikeRorider, UBC) </strong> 
-    Teledyne Webb Slocum G2 1000 m glider  
-    Sensors: CTD, oxygen optode, ECO-Puck, 
-    Rockland MicroRider turbulence sensor  
-  </p>
-  </div>
-  <div class="column" >
-
- <p class="box" style="background-color:rgb(250, 250, 250);">
-    <strong>dfo-k999  </strong>
-    Teledyne Webb Slocum G3 1000 m glider
-    Sensors: CTD, oxygen optode, ECO-Puck
-  </p>
-
- <p class="box" style="background-color:rgb(250, 250, 250);">
-    <strong>dfo-bumblebee998  </strong>
-    Teledyne Webb Slocum G3 1000 m glider
-    Sensors: CTD, oxygen optode, ECO-Puck
-  </p>
-
- <p class="box" style="background-color:rgb(250, 250, 250);">
-    <strong>dfo-maria997  </strong>
-    Teledyne Webb Slocum G3 1000 m glider
-    Sensors: CTD, oxygen optode, ECO-Puck
-  </p>
-   
- <p class="box" style="background-color:rgb(250, 250, 250);">
-    <strong>dfo-bb046  </strong>
-    Alseamar SeaExplorer-X2 1000 m glider  
-    Sensors: CTD, oxygen optode, ECO-Puck 
-  </p> 
-
-  <p class="box" style="background-color:rgb(250, 250, 250);">
-    <strong> dfo-eva035 </strong>  
-    Alseamar SeaExplorer-X1 700 m glider  
-    Sensors: CTD, oxygen optode, ECO-Puck  
-  </p>
-  </div>
-</div>
-
+<table>
+{% for glider in site.data.gliders %}
+  <tr>
+    <td><strong> {{ glider.name }}</strong></td>
+    <td>{{ glider.model }}</td>
+    <td>Sensors: {{ glider.sensors }}</td>
+    <td>{{ glider.purchase-date }}</td>
+  </tr>
+{% endfor %}
+</table>
 
 <hr>
 
-
-<h1>Biogeochemical Argo Floats</h1>
+# Biogeochemical Argo Floats
 
 <figure>
 <img class="img" src="/img/argodiagram.jpg" alt="">
@@ -108,15 +48,15 @@ Underwater ocean gliders are autonomous vehicles that use a buoyancy engine to m
 </figure>
 
 
-<h3>About biogeochemical Argo floats</h3>
+### About biogeochemical Argo floats
 
-The goal of <a href='https://biogeochemical-argo.org/'>Biogeochemical-Argo</a> is to develop a global network of Argo profiling floats with biogeochemical sensors onboard. Argo is an international program with thousands of profiling floats measuring water properties globally. Each float is an autonomous instrument that drifts with the ocean currents and moves up and down through the ocean, returning to the surface to communicate data via satellite. Argo floats measure temperature and salinity, and biogeochemical floats also measure additional properties that describe the biology and chemistry of the ocean. C-PROOF contributes instruments to core Argo floats. 
-
-
-<h3>C-PROOF Argo floats</h3>
+The goal of [Biogeochemical-Argo](https://biogeochemical-argo.org/) is to develop a global network of Argo profiling floats with biogeochemical sensors onboard. Argo is an international program with thousands of profiling floats measuring water properties globally. Each float is an autonomous instrument that drifts with the ocean currents and moves up and down through the ocean, returning to the surface to communicate data via satellite. Argo floats measure temperature and salinity, and biogeochemical floats also measure additional properties that describe the biology and chemistry of the ocean. C-PROOF contributes instruments to core Argo floats.
 
 
-<table> 
+### C-PROOF Argo floats
+
+
+<table>
 
  <tr>
     <td><a href='https://www.ocean-ops.org/board/wa/Platform?ref=4902549'><b>4902549</b></a></td>
@@ -150,6 +90,3 @@ The goal of <a href='https://biogeochemical-argo.org/'>Biogeochemical-Argo</a> i
   </tr>
 </table>
 
-
-<br>
-</body>

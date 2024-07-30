@@ -1,29 +1,42 @@
-#students 
+#students
+
+- name: Lauryn Talbot
+  role: MSc
+  img: img/Talbot.png
+  org:
+  github:
+  title:
+  bio: Investigating temperature variability along Line P with repeat glider lines
+  url:
+  groups:
+  visible: true
+  type:
+
 
 - name: Khush Jhugroo
   role: Postdoctoral fellow in coastal physical oceanography at the Hakai Institute and UBC
   img: img/KhushJhugroo.jpg
-  org: 
-  github: 
-  title: 
+  org:
+  github:
+  title:
   bio: Investigating shelf sea processes and coast-to-open-ocean connectivity
-  url: 
-  groups: 
+  url:
+  groups:
   visible: true
-  type: 
+  type:
 
 - name: Bernie Yang
   role: Postdoctoral fellow with C-PROOF at UVic
   img: img/BernieYang.jpg
-  org: 
-  github: 
-  title:  
+  org:
+  github:
+  title:
   bio: Investigating how offshore ocean dynamics affect ocean productivity and salmon migration paths in the northeast Pacific Ocean
-  url: 
-  groups: 
+  url:
+  groups:
   visible: true
   type:
- 
+
 - name: Seth Fleming-Alho
   role: Past co-op student at UVic, now junior glider technician with DFO
   img: img/Seth_photo.jpg
@@ -39,11 +52,11 @@
 - name: Julia Putko
   role: 2022 Co-op Student at UVic
   img: img/JuliaPutko.png
-  org: 
-  github: 
-  title: 
-  bio: Made our glider data more accessible on the C-PROOF website.                                                         
-  url: 
-  groups: 
+  org:
+  github:
+  title:
+  bio: Made our glider data more accessible on the C-PROOF website.
+  url:
+  groups:
   visible: true
-  type: 
+  type:

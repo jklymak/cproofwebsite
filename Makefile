@@ -3,3 +3,6 @@ build:
 
 upload:
 	rsync -av --delete  _site/ cproof@cproof.uvic.ca:Sites --exclude=gliderdata
+
+cp:
+	rsync -av --delete  _site/ /Users/cproof/Sites --exclude=gliderdata
