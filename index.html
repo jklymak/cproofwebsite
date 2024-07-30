@@ -13,37 +13,29 @@ header-img: "img/MikeSaanich19.jpg"
 integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
 crossorigin=""></script>
 
-
-
 <body class="home">
 
 <p>The Canadian-Pacific Robotic Ocean Observing Facility was initiated with CFI/BCKDF funding to build ocean observing
    capacity off the British Columbia coast. It operates a fleet of autonomous gliders, floats, and moorings providing
    ocean scientists with long-term monitoring of the ocean at the small scales important to resolve upper ocean physical
-   and biological properties.</p>
+   and biological processes.</p>
 
 <h3> Deployments </h3>
 
+<div id="ticker-container"></div>
+<script src="js/DistanceTicker.js"></script>
 
-<header class="intro-header2" style="background-color:#6E7588;foreground-color:#FFFFFF">
-  <div class="container">
-     <div class="row">
-        <div>
-            <div class="subheading" style="padding: 6px 1em 0.2em 1em;color:#FFFFFF">
-                  To date, our gliders have traveled {% include totalkm.html %} km, and made {% include totalprofiles.html %} CTD, O2, and optics casts.
-            </div>
-        </div>
-      </div>
-   </div>
- </header>
-
-C-PROOF glider deployments are under way! Check out our <a style="font-weight:bold" href='/deployments/'>Deployments Page</a> to see the list of glider deployments and access data, and check out our <a style="font-weight:bold" href='/platforms/'>Platforms Page</a> for information about the Argo floats:
+<p>Our <a href='/deployments/'>Deployments Page</a> has a list of glider deployments and access to glider data; see <a href='/platforms/'>Platforms Page</a> for information about the Argo floats and how to access data:</p>
 
 <div id="mapfront" style="width: 100%; height: 400px;"></div>
 
 <a href="/deployments/">
   <script src="js/map.js"></script>
 </a>
+
+<h4> Active glider deployments</h4>
+<div id="image-container"></div>
+<script src="js/image_active_deploy.js"></script>
 
 <h2>Partners</h2>
 
