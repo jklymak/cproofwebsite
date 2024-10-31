@@ -5,4 +5,4 @@ upload:
 	rsync -av --delete  _site/ cproof@cproof.uvic.ca:Sites --exclude=gliderdata
 
 cp:
-	rsync -av --delete  _site/ /Users/cproof/Sites --exclude=gliderdata
+	rsync -av --delete  _site/ /home/cproof/public_html --exclude=gliderdata
