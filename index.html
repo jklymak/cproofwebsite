@@ -22,8 +22,17 @@ crossorigin=""></script>
 
 <h3> Deployments </h3>
 
-<div id="ticker-container"></div>
-<script src="js/DistanceTicker.js"></script>
+<iframe id="totals-frame" src="gliderdata/deployments/Totals.html" width="100%" style="border:none;" height="3em"></iframe>
+
+<script>
+        // Adjust iframe height to fit content
+        const iframe = document.getElementById('totals-frame');
+        
+        iframe.onload = function() {
+            // Access the height of the content inside the iframe
+            iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+        };
+</script>
 
 <p>Our <a href='/deployments/'>Deployments Page</a> has a list of glider deployments and access to glider data; see <a href='/platforms/'>Platforms Page</a> for information about the Argo floats and how to access data:</p>
 
