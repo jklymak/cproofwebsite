@@ -25,6 +25,10 @@ The data is  available at different levels of processing:
 
 See [Deployments]({{ site.baseurl }}/deployments/index.html) to view and download data and figures for individual glider missions.
 
+### Gridded data via THREDDS:
+
+Data binned in depth and time are available via our [THREDDS server](https://cproof.uvic.ca/thredds/).  The THREDDS server allows partial downloading of data sets using the ODAP protocol.  Using python xarray something like `ds=xr.open_dataset('https://cproof.uvic.ca/thredds/dodsC/gridsCalvert/dfo-hal1002-20220914_grid_delayed.nc')` should give data access without having to download and store the dataset locally.  You can [do a similar thing in Matlab](https://www.mathworks.com/help/matlab/import_export/reading-netcdf-data-directly-from-remote-locations.html#mw_b2b95cb8-d257-4289-84a9-0756967e3ad4) and in [R](https://rdrr.io/cran/RNetCDF/man/open.nc.html) or any other library that supports [OPeNDAP](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api/opendap).
+
 ### Direct download using wget.
 
 To download all the mission data, type the command
@@ -39,7 +43,7 @@ To download all the data by glider line or by platform, replace [`mission_all.tx
 - Glider lines
   - [`LineP.txt`](https://cproof.uvic.ca/gliderdata/deployments/LineP.txt)
   - [`CalvertLine.txt`](https://cproof.uvic.ca/gliderdata/deployments/CalvertLine.txt)
-  - [`SouthernLine.txt`](https://cproof.uvic.ca/gliderdata/deployments/SouthernLine.txt)
+  - [`Southern.txt`](https://cproof.uvic.ca/gliderdata/deployments/Southern.txt)
 
 ### ERDAP server:
 
