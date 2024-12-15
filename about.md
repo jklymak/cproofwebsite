@@ -54,7 +54,6 @@ If you use C-PROOF data, please let us know at [cproof@uvic.ca](mailto:cproof@uv
 
 If you use C-PROOF data in a presentation, please let us know at [cproof@uvic.ca](mailto:cproof@uvic.ca).
 
-
 Klymak et al, 2024, <a href="./talks/SOPOPoster2024.pdf">2023 State of the NEP Meso- and Submesoscales</a>, <strong>State of the Pacific Ocean meeting, 2024</strong>
 
 Ross et al 2024, Review of temperature, salinity and density of the northeastern
